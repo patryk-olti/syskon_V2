@@ -1,0 +1,24 @@
+.sponsorsBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+
+    .sponsors{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+
+        max-width: 1200px;
+    }
+}
+
+.sponsor{
+    width: 200px;
+
+    img{
+        width: 100%;
+    }
+}
