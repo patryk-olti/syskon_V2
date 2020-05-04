@@ -1,10 +1,22 @@
 import React from 'react';
 
+import "../styles/About.scss";
+
 const About = () => {
 
     return(
-        <div>
-            lorem*1000
+        <div className="aboutBox">
+            <div className="about">
+                <div className="left">
+                    <div className="dotAbout"></div>
+                    <div className="dotAbout"></div>
+                    <div className="dotAbout"></div>
+                </div>
+
+                <div className="right">
+                    
+                </div>
+            </div>
         </div>
     )
 }

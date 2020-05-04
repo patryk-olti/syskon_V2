@@ -10,7 +10,7 @@ const MainNav = () => {
         <div className="mainNavBox">
             <ul className="mainNav">
                 <NavElement name="firma"/>
-                <NavElement name="proukty"/>
+                <NavElement name="produkty"/>
                 <NavElement name="zainstalowane"/>
                 <NavElement name="zdjęcia"/>
                 <NavElement name="przetargi"/>

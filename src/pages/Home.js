@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Sponsors from "../containers/Sponsors";
 import MainNav from "../containers/MainNav";
+import LogoArea from "../containers/LogoArea";
 import Header from "../containers/Header";
 import SecondNav from "../containers/SecondNav";
 import MainAbout from "../containers/MainAbout";
@@ -15,6 +16,7 @@ class Home extends Component{
             <div className="home">
                 <Sponsors />
                 <MainNav />
+                <LogoArea />
                 <Header />
                 <SecondNav />
                 <MainAbout />
