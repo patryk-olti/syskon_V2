@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Sponsors from "../containers/Sponsors";
+import MainNav from "../containers/MainNav";
 import Header from "../containers/Header";
 import SecondNav from "../containers/SecondNav";
 import MainAbout from "../containers/MainAbout";
@@ -13,6 +14,7 @@ class Home extends Component{
         return(
             <div className="home">
                 <Sponsors />
+                <MainNav />
                 <Header />
                 <SecondNav />
                 <MainAbout />

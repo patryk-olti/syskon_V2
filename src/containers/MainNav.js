@@ -1,12 +1,22 @@
 import React from "react";
 
+import "../styles/MainNav.scss";
+
+import NavElement from '../components/NavElement';
+
 const MainNav = () => {
 
     return(
-        <ul className="mainNav">
-            <li>elo</li>
-            <li>elo</li>
-        </ul>
+        <div className="mainNavBox">
+            <ul className="mainNav">
+                <NavElement name="firma"/>
+                <NavElement name="proukty"/>
+                <NavElement name="zainstalowane"/>
+                <NavElement name="zdjęcia"/>
+                <NavElement name="przetargi"/>
+                <NavElement name="kontakt"/>
+            </ul>
+        </div>
     )
 }
 

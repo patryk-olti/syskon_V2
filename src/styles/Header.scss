@@ -1,0 +1,83 @@
+.header{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map{
+    position: relative;
+
+    height: 84vh;
+
+    img{
+        height: 100%;
+    }
+}
+
+.dot{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+    box-shadow: 0px 0px 0px 5px white, 0px 0px 0px 8px black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.active{
+    animation: blink 2s infinite;
+}
+
+.wroclaw{
+    top: 60%;
+    left: 25%;
+}
+
+.szczecin{
+    top: 18%;
+    left: 5%;
+}
+
+.bogdanka{
+    top: 55%;
+    left: 86%;
+}
+
+.budryk{
+    top: 72%;
+    left: 41%;
+}
+
+.ostrava{
+    top: 81%;
+    left: 35%;
+}
+
+.silesia{
+    top: 80%;
+    left: 44%;
+}
+
+.brzeszcze{
+    top: 78%;
+    left: 46%;
+}
+
+.belchatow{
+    top: 51%;
+    left: 46%;
+}
+
+.kozienice{
+    top: 51%;
+    left: 70%;
+}
+
+@keyframes blink{
+    0%{ box-shadow: 0px 0px 0px 5px white, 0px 0px 0px 8px black; }
+    50%{ box-shadow: 0px 0px 0px 5px white, 0px 0px 0px 10px red; background-color: red;}
+    100%{ box-shadow: 0px 0px 0px 5px white, 0px 0px 0px 8px black; }
+}
