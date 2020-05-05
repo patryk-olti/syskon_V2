@@ -1,3 +1,5 @@
+$backgr: #141f4d;
+
 .header{
     width: 100%;
 
@@ -6,13 +8,13 @@
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(71, 102, 189, 0.678);
+    background-color: $backgr;
 }
 
 .map{
     position: relative;
 
-    height: 84vh;
+    height: 95vh;
 
     img{
         height: 100%;
