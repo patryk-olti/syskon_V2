@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/syskon_V2/static/css/main.5c91d9fd.chunk.css",
+    "main.js": "/syskon_V2/static/js/main.cd44a51f.chunk.js",
+    "main.js.map": "/syskon_V2/static/js/main.cd44a51f.chunk.js.map",
+    "runtime-main.js": "/syskon_V2/static/js/runtime-main.e929a3e8.js",
+    "runtime-main.js.map": "/syskon_V2/static/js/runtime-main.e929a3e8.js.map",
+    "static/js/2.481f50f7.chunk.js": "/syskon_V2/static/js/2.481f50f7.chunk.js",
+    "static/js/2.481f50f7.chunk.js.map": "/syskon_V2/static/js/2.481f50f7.chunk.js.map",
+    "index.html": "/syskon_V2/index.html",
+    "precache-manifest.bf97ab5086914b8991a7706d6d7c31ca.js": "/syskon_V2/precache-manifest.bf97ab5086914b8991a7706d6d7c31ca.js",
+    "service-worker.js": "/syskon_V2/service-worker.js",
+    "static/css/main.5c91d9fd.chunk.css.map": "/syskon_V2/static/css/main.5c91d9fd.chunk.css.map",
+    "static/js/2.481f50f7.chunk.js.LICENSE.txt": "/syskon_V2/static/js/2.481f50f7.chunk.js.LICENSE.txt",
+    "static/media/dolny.png": "/syskon_V2/static/media/dolny.1f8aab22.png",
+    "static/media/funduszeEuropejskie.jpg": "/syskon_V2/static/media/funduszeEuropejskie.037b8b30.jpg",
+    "static/media/mapa.png": "/syskon_V2/static/media/mapa.6b0aa4b7.png",
+    "static/media/syskon1.png": "/syskon_V2/static/media/syskon1.be3a324b.png",
+    "static/media/uniaEuropejska.jpg": "/syskon_V2/static/media/uniaEuropejska.bd0daf8a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e929a3e8.js",
+    "static/js/2.481f50f7.chunk.js",
+    "static/css/main.5c91d9fd.chunk.css",
+    "static/js/main.cd44a51f.chunk.js"
+  ]
+}
