@@ -19,7 +19,6 @@ class Home extends Component{
                 <LogoArea />
                 <SecondNav />
                 <Header />
-                
                 <MainAbout />
                 <Counter />
                 <Footer />

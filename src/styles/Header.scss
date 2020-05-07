@@ -9,6 +9,15 @@ $backgr: #141f4d;
     align-items: center;
 
     background-color: $backgr;
+
+    .aboutHeader{
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+
+        color: white;
+        margin-bottom: 30px;
+    }
 }
 
 .map{
@@ -29,6 +38,13 @@ $backgr: #141f4d;
     box-shadow: 0px 0px 0px 5px white, 0px 0px 0px 8px black;
     border-radius: 50%;
     background-color: black;
+}
+
+.hover{
+    
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .active{
