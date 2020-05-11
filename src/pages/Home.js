@@ -6,7 +6,6 @@ import LogoArea from "../containers/LogoArea";
 import Header from "../containers/Header";
 import SecondNav from "../containers/SecondNav";
 import Devices from "../containers/Devices";
-import MainAbout from "../containers/MainAbout";
 import Counter from "../containers/CounterBox";
 import Footer from "../containers/Footer";
 
@@ -18,10 +17,9 @@ class Home extends Component{
                 <Sponsors />
                 <MainNav />
                 <LogoArea />
-                <SecondNav />
                 <Header />
+                <SecondNav />
                 <Devices />
-                <MainAbout />
                 <Counter />
                 <Footer />
             </div>
