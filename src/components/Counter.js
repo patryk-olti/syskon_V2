@@ -29,7 +29,7 @@ class Counter extends React.Component{
 
       window.addEventListener('scroll', () => {
 
-        if((window.pageYOffset > 1600)){
+        if((window.pageYOffset > 2200)){
           this.setState({
             change: true
           })

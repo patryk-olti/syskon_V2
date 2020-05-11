@@ -17,7 +17,7 @@ class CounterBox extends React.Component{
         return(
             <div className="counterBox">
                 <div className="title">
-                    <span>Nasze urządzenia</span>
+                    <span>Nasze instalacje</span>
                 </div>
                 
                 <div className="counter">

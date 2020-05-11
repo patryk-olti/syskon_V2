@@ -9,6 +9,9 @@ const Header = () => {
 
     return(
         <div className="header">
+            <div className="aboutHeader">
+                Działamy w całej Polsce!
+            </div>
             <Map />
         </div>
     )

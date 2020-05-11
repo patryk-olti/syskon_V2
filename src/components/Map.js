@@ -1,7 +1,7 @@
 import React from 'react';
 import map from "../img/mapa.png";
 import "../styles/Header.scss";
-import Dot from '../components/Dot';
+import Dot from './Dot';
 
 class Map extends React.Component{
 
@@ -37,16 +37,21 @@ class Map extends React.Component{
         setInterval( this.changeActive() , 1000);
     }
 
-
-
-
-
     render(){
         
         
         return (
             <div className="map">
-               {this.state.base.length !== 0 ?  this.state.base.map(item => ( <Dot extendsClass = {item.city} /> )) 
+               {this.state.base.length !== 0 ?  
+                this.state.base.map(item => ( 
+                    <Dot 
+                        extendsClass = {item.city} 
+                        city = {item.city} 
+                        type = {item.type}
+                        name = {item.name}
+                        info = {item.info}
+                    /> 
+                )) 
                : null
             }
 

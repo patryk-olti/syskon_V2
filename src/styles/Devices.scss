@@ -1,0 +1,48 @@
+.devicesBox{
+    width: 100vw;
+
+    .titleDevice{
+        margin: 40px 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .devices{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    
+        .device{
+            padding: 20px;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            color: white;
+    
+            .img{
+                width: 100%;
+                
+                img{
+                    width: 100%;
+                }
+            }
+    
+            .title{
+                padding: 10px 0;
+                span{
+                    font-size: 24px;
+                }
+            }
+
+            .about{
+                max-width: 250px;
+                text-align: center;
+            }
+        }
+    }
+}
