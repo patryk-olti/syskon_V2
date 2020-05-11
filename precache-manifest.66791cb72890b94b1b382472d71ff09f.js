@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d708f8a3f5b72fbc47624d4d62615802",
+    "revision": "4112ab567fca7ee604c2d6a02ca52374",
     "url": "/syskon_V2/index.html"
   },
   {
-    "revision": "ec82cbe02a2afcc58d6d",
-    "url": "/syskon_V2/static/css/main.5c91d9fd.chunk.css"
+    "revision": "4938266815667be191fb",
+    "url": "/syskon_V2/static/css/main.a13f32e8.chunk.css"
   },
   {
-    "revision": "9e557f7cb29764fa0869",
-    "url": "/syskon_V2/static/js/2.481f50f7.chunk.js"
+    "revision": "4a53fca485c09d7714dd",
+    "url": "/syskon_V2/static/js/2.a6919f20.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/syskon_V2/static/js/2.481f50f7.chunk.js.LICENSE.txt"
+    "url": "/syskon_V2/static/js/2.a6919f20.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec82cbe02a2afcc58d6d",
-    "url": "/syskon_V2/static/js/main.cd44a51f.chunk.js"
+    "revision": "4938266815667be191fb",
+    "url": "/syskon_V2/static/js/main.dec7563a.chunk.js"
   },
   {
     "revision": "bdb619673c2b59d614e9",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6b0aa4b73958a35136457379cdb8b095",
     "url": "/syskon_V2/static/media/mapa.6b0aa4b7.png"
+  },
+  {
+    "revision": "e22abc0b22dafb668faf36ebb4d92e6e",
+    "url": "/syskon_V2/static/media/syskon.e22abc0b.png"
   },
   {
     "revision": "be3a324bf92642780cdf61dcf7dc6081",
